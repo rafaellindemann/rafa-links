@@ -1,5 +1,6 @@
 import './App.css'
 import { FaGithubSquare } from "react-icons/fa";
+import Linkedin from './components/Linkedin';
 function App() {
 
   return (
@@ -11,6 +12,8 @@ function App() {
         Github
         <FaGithubSquare />
       </a>
+
+      <Linkedin />
 
     </div>
   )

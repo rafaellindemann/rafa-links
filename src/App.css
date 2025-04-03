@@ -15,6 +15,20 @@
   font-size: 28px;
 }
 
+.links:hover{
+  scale: 1.1;
+}
+
+/* voltar aqui e arrumar as cores dos links */
+
+a:visited{
+  color: #000;
+}
+
+a:active{
+  color: aqua;
+}
+
 .container-app{
   /* background-color: aqua; */
   min-height: 100vh;
@@ -22,6 +36,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 
   background: hsla(260, 75%, 95%, 1);
   background: radial-gradient(circle, hsla(260, 75%, 95%, 1) 0%, hsla(195, 85%, 66%, 1) 50%, hsla(319, 90%, 59%, 1) 100%);
