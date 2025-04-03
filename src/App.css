@@ -38,9 +38,13 @@ a:active{
   align-items: center;
   gap: 10px;
 
-  background: hsla(260, 75%, 95%, 1);
-  background: radial-gradient(circle, hsla(260, 75%, 95%, 1) 0%, hsla(195, 85%, 66%, 1) 50%, hsla(319, 90%, 59%, 1) 100%);
-  background: -moz-radial-gradient(circle, hsla(260, 75%, 95%, 1) 0%, hsla(195, 85%, 66%, 1) 50%, hsla(319, 90%, 59%, 1) 100%);
-  background: -webkit-radial-gradient(circle, hsla(260, 75%, 95%, 1) 0%, hsla(195, 85%, 66%, 1) 50%, hsla(319, 90%, 59%, 1) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f0eafc", endColorstr="#61cef2", GradientType=1 );
+  background: hsla(276, 91%, 79%, 1);
+
+  background: linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#d397fa", endColorstr="#8364e8", GradientType=1 );
 }
