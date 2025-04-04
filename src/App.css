@@ -1,5 +1,6 @@
 .links{
-  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* border: 2px solid black; */
   border-radius: 10px;
   width: 90%;
   height: 40px;
@@ -13,10 +14,11 @@
 
   background-color: hsla(319, 90%, 59%, 1);
   font-size: 28px;
+
 }
 
 .links:hover{
-  scale: 1.1;
+  scale: 1.02;
 }
 
 /* voltar aqui e arrumar as cores dos links */
